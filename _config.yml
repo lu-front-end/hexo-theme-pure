@@ -159,7 +159,7 @@ pv:
   busuanzi:
     enable: true # 不蒜子统计
   leancloud:
-    enable: true # leancloud统计
+    enable: false # leancloud统计
     app_id: XcvDLqOi5qLd384zrL6m78sT-MdYXbMMI # leancloud <AppID>
     app_key: QIR4X0m5HxHTbkfxoxT4Bhdq # leancloud <AppKey>
 
@@ -205,19 +205,19 @@ profile:
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
   skills:
-    Git: ★★★☆☆
-    C/C++: ★★★★☆
-    Python: ★★★☆☆
-    Go: ★★★☆☆
-    Rust: ★★★☆☆
-    MySQL: ★★★★☆
-    PostgreSQL: ★★★★☆
-    Postgres-XC: ★★★★☆
-    Greenplum: ★★★★☆
-    ClickHouse: ★★☆☆☆
-    Kubernetes: ★★★☆☆
-    Redis: ★★★☆☆
-    Linux: ★★★☆☆
+    Git: ★★★★☆
+    C/C++: ★★★★★
+    Python: ★★★★☆
+    Go: ★★★★☆
+    Rust: ★★★★☆
+    MySQL: ★★★★★
+    PostgreSQL: ★★★★★
+    Postgres-XC: ★★★★★
+    Greenplum: ★★★★★
+    ClickHouse: ★★★☆☆
+    Kubernetes: ★★★★☆
+    Redis: ★★★★☆
+    Linux: ★★★★☆
   # My Personal Links
   links:
     微信公众号: MySQL数据库技术
@@ -252,6 +252,7 @@ profile:
     radondb/xenon: https://github.com/radondb/xenon
     radondb/radon: https://github.com/radondb/radon
 
+# Full Text Search Enabled
 jsonContent:
   ignore:
     #- path/to/a/page
