@@ -109,7 +109,7 @@ github:
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
   type: valine  # 启用哪种评论系统
-  disqus:  # enter disqus shortname here
+  disqus: geek # enter disqus shortname here
   youyan:
     uid: 1783844 # enter youyan uid
   livere:
@@ -135,7 +135,7 @@ comment:
     avatar: mm # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
-    visitor: false # Article reading statistic https://valine.js.org/visitor.html
+    visitor: true # Article reading statistic https://valine.js.org/visitor.html
 
 # douban 豆瓣书单
 # Api：
@@ -159,7 +159,7 @@ pv:
   busuanzi:
     enable: true # 不蒜子统计
   leancloud:
-    enable: false # leancloud统计
+    enable: true # leancloud统计
     app_id: XcvDLqOi5qLd384zrL6m78sT-MdYXbMMI # leancloud <AppID>
     app_key: QIR4X0m5HxHTbkfxoxT4Bhdq # leancloud <AppKey>
 
@@ -251,3 +251,11 @@ profile:
   projects:
     radondb/xenon: https://github.com/radondb/xenon
     radondb/radon: https://github.com/radondb/radon
+
+jsonContent:
+  ignore:
+    #- path/to/a/page
+    #- url/to/one/post
+    #- an-entire-category
+    #- specific.file
+    #- .ext # a file extension
