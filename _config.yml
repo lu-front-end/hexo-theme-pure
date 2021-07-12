@@ -31,9 +31,9 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: DBKernel - 专注于分享数据库技术 # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>本站专注于分享关系型数据库及分布式数据库相关技术！如需深入交流，可添加我的微信或关注我的公众号MySQL数据库技术：</br><img src="../images/wechat-me.jpeg" width="150" height="150"/><img src="../images/wechat-gzh.jpeg" width="165" height="165"/></p> # 站点公告
   copyright: true # 底部版权信息
 
 # config
@@ -223,7 +223,7 @@ profile:
     微信公众号: MySQL数据库技术
     Github: https://github.com/dbkernel
     博客: http://dbkernel.github.io
-    知乎: https://zhuanlan.zhihu.com/mysqldb
+    # 知乎: https://zhuanlan.zhihu.com/mysqldb
     SegmentFault: https://segmentfault.com/u/dbtech
     OSChina: https://my.oschina.net/dbtech
     掘金: https://juejin.im/user/5e9d3ed251882538083fed1f/posts
