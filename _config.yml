@@ -131,7 +131,7 @@ comment:
     appkey: QIR4X0m5HxHTbkfxoxT4Bhdq # your leancloud application appkey
     notify: true # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
-    placeholder: 首行输入 昵称,邮箱,链接，次行开始输入正文 # comment box placeholder
+    placeholder: 欢迎评论交流经验 # comment box placeholder
     avatar: mm # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
