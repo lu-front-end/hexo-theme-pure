@@ -97,8 +97,8 @@ donate:
 # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
 share:
   enable: true  # 是否启用分享
-  sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
-  mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
+  sites: weibo,qq,qzone,wechat,facebook,twitter,google,linkedin  # PC端显示的分享图标
+  mobile_sites: weibo,qq,qzone,wechat,facebook,twitter,google,linkedin  # 移动端显示的分享图标
 
 # Github
 github:
@@ -130,8 +130,8 @@ comment:
     appid: XcvDLqOi5qLd384zrL6m78sT-MdYXbMMI # your leancloud application appid
     appkey: QIR4X0m5HxHTbkfxoxT4Bhdq # your leancloud application appkey
     notify: true # mail notifier , https://github.com/xCss/Valine/wiki
-    verify: true # Verification code
-    placeholder: Just go go # comment box placeholder
+    verify: false # Verification code
+    placeholder: 首行输入 昵称,邮箱,链接，次行开始输入正文 # comment box placeholder
     avatar: mm # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
@@ -157,9 +157,9 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: false  # 不蒜子统计
+    enable: true # 不蒜子统计
   leancloud:
-    enable: true  # leancloud统计
+    enable: false # leancloud统计
     app_id: XcvDLqOi5qLd384zrL6m78sT-MdYXbMMI # leancloud <AppID>
     app_key: QIR4X0m5HxHTbkfxoxT4Bhdq # leancloud <AppKey>
 
