@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: DBKernel - 专注于分享数据库技术 # 页面title
   favicon: /favicon.png
-  board: <p>本站专注于分享关系型数据库及分布式数据库相关技术！如需深入交流，可添加我的微信或关注我的公众号MySQL数据库技术：</br><img src="/images/wechat-me.jpeg" width="130" height="130"/> <img src="/images/wechat-gzh.jpeg" width="130" height="130"/></p> # 站点公告
+  board: <p>本站专注于分享关系型数据库及分布式数据库相关技术！如需深入交流，可添加我的微信或关注我的公众号数据库内核：</br><img src="/images/wechat-me.jpeg" width="130" height="130"/> <img src="/images/wechat-gzh.jpeg" width="130" height="130"/></p> # 站点公告
   copyright: true # 底部版权信息
 
 # config
@@ -221,13 +221,13 @@ profile:
     Linux: ★★★★☆
   # My Personal Links
   links:
-    微信公众号: MySQL数据库技术
+    微信公众号: 数据库内核
     Github: https://github.com/dbkernel
     博客: http://dbkernel.github.io
     知乎: https://www.zhihu.com/people/dbkernel/posts
-    SegmentFault: https://segmentfault.com/u/dbkernel
+    思否: https://segmentfault.com/u/dbkernel
     #InfoQ: https://www.infoq.cn/u/dbkernel/publish
-    OSChina: https://my.oschina.net/dbtech
+    开源中国: https://my.oschina.net/dbtech
     掘金: https://juejin.im/user/5e9d3ed251882538083fed1f/posts
     博客园: https://www.cnblogs.com/dbkernel
     #微博: http://weibo.com/cofess
@@ -243,6 +243,12 @@ profile:
     - Postgres-XC
     - ClickHouse
     - Redis
+    - C++
+    - Golang
+    - Python
+    - Rust
+    - Linux
+    - Kubernetes
 
   # My Personal Works
   works:
