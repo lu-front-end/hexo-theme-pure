@@ -108,7 +108,7 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: valine  # 启用哪种评论系统
+  type: gitalk  # 启用哪种评论系统
   disqus: geek # enter disqus shortname here
   youyan:
     uid: 1783844 # enter youyan uid
@@ -120,12 +120,12 @@ comment:
     ClientID:
     ClientSecret:
     lazy: false
-  gitalk: # gitalk. https://gitalk.github.io/
-    owner:  #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin:  #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-    repo:  #必须. GitHub repository.
-    ClientID:  #必须. GitHub Application Client ID.
-    ClientSecret:  #必须. GitHub Application Client Secret.
+  gitalk:  # gitalk. https://gitalk.github.io/
+    owner: dbkernel #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin: dbkernel1989 #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo: dbkernel/gitalk-comment #必须. GitHub repository.
+    ClientID: 642675de9efee853bde8 #必须. GitHub Application Client ID.
+    ClientSecret: e481d901d83ac31b4041437ec30a4fd00d112cfa  #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org , https://console.leancloud.app/
     appid: XcvDLqOi5qLd384zrL6m78sT-MdYXbMMI # your leancloud application appid
     appkey: QIR4X0m5HxHTbkfxoxT4Bhdq # your leancloud application appkey
@@ -159,7 +159,7 @@ pv:
   busuanzi:
     enable: true # 不蒜子统计
   leancloud:
-    enable: true # leancloud统计
+    enable: false # leancloud统计
     app_id: XcvDLqOi5qLd384zrL6m78sT-MdYXbMMI # leancloud <AppID>
     app_key: QIR4X0m5HxHTbkfxoxT4Bhdq # leancloud <AppKey>
 
@@ -174,7 +174,7 @@ plugins:
   google_analytics: # enter the tracking ID for your Google Analytics
   # 选用 HTML标记 验证方式
   google_site_verification: XKEVBvaS3n3qpVoP-hQqQ2XJ9t43pt4B7J1sLZgRJG4 # enter Google site verification code
-  baidu_analytics: # enter Baidu Analytics hash key
+  baidu_analytics: bf7f972e25b6a36ff4b828ba0214e515 # enter Baidu Analytics hash key
   tencent_analytics:
 
 # Miscellaneous
