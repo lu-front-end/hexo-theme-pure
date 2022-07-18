@@ -108,7 +108,7 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: gitalk  # 启用哪种评论系统
+  type: valine  # 启用哪种评论系统
   disqus: geek # enter disqus shortname here
   youyan:
     uid: 1783844 # enter youyan uid
@@ -189,8 +189,8 @@ profile:
   avatar: images/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: DBKernel
-  author_title: 资深数据库开发工程师
-  author_description: 目前从事云数据库MySQL/PostgreSQL的研发工作，曾做过PGXC、Greenplum等分布式数据库的内核开发。热衷于研究主流数据库架构、源码，对关系型数据库 MySQL/PostgreSQL及分布式数据库有深入研究。
+  author_title: 资深数据库内核研发
+  author_description: 目前从事云数据库MySQL数据库内核研发工作，曾做过Postgres-XC、Greenplum等分布式数据库的内核开发。热衷于研究主流数据库架构、源码，对关系型数据库 MySQL/PostgreSQL及分布式数据库有深入研究。 
   location: Beijing, China
   follow: https://github.com/dbkernel
   # Social Links
